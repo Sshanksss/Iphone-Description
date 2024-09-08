@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("8k-anime-girl-and-dragon-1ryrg4ztrvpnr5yu.jpg") ;
+    background-repeat: no-repeat;
+    background-size: px;
+    background-color: burlywood;
+    display: grid;
+    overflow: hidden;
+    place-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: lightslategray;
+    width: 600px;;
+    height: 500px;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    place-items: center;
+    box-shadow: 10px 10px 10px 10px;
+    position: absolute;
+}
+.container-close{
+    position:absolute;
+}
+img{
+    height: 400px;
+    width: 250px;
+    cursor: grab;
+}
+.one{
+    font-size:x-large;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.two{
+    text-align: center;
+    font-size:large;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    align-items: flex-end;
+}
+input{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque
+}
+button{
+    border-radius: 100px;
+    padding:10px ;
+    background-color: bisque;
+}
+.three{
+    font-size: small;
+    color: antiquewhite;
+}
